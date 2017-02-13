@@ -2953,8 +2953,8 @@
 		background-color: transparent;
 		border-radius: 0.375em;
 		border: 0;
-		box-shadow: inset 0 0 0 2px #f56a6a;
-		color: #f56a6a !important;
+		box-shadow: inset 0 0 0 2px #cbccd2;
+		color: #6f6565 !important;
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Roboto Slab", serif;
@@ -2969,6 +2969,7 @@
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
+    
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
@@ -3020,6 +3021,16 @@
 			font-size: 1em;
 			height: 3.65em;
 			line-height: 3.65em;
+		}
+
+        input[type="submit"].amol,
+		input[type="reset"].amol,
+		input[type="button"].amol,
+		button.amol,
+		.button.amol {
+			background-color: #E1E2E3;
+			box-shadow: none;
+			color: #ffffff !important;
 		}
 
 		input[type="submit"].special,
